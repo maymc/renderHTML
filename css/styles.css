@@ -1,0 +1,11 @@
+#name{
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.slayer{
+	border-style:solid;
+	border-color: gray;
+	border-width: 0.1px;
+}
