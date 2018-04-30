@@ -2,31 +2,42 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<title>Wray Farias - Web Developer</title>
 </head>
 <body>
-
 	<img src="assets/download.jpeg" alt="cat" height="42" width="80">
-	<h1>Wray Farias - Web Developer</h1>
+	<h1 id="title">Wray Farias - Web Developer</h1>
+
 	<section id="navigation">
-		<li><a href="#home">Home</a></li>
-		<li><a href="#about">About Me</a></li>
-		<li><a href="#blog">Blog</a></ul>
-		<li><a href="#contact">Contact Me</a></li>
+		<li class="guide"><a href="#home">Home</a></li>
+		<li class="guide"><a href="#about">About Me</a></li>
+		<li class="guide"><a href="#blog">Blog</a></li>
+		<li class="guide"><a href="#contact">Contact Me</a></li>
 	</section>
 
-	<section>
-		<h2>She is the slayer.</h2>
-		<p>May 9th, 2014</p>
-		<img src="assets/download.jpeg" alt="cat">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae praesentium sequi labore tenetur laudantium modi eligendi cum, error cupiditate illum accusamus voluptatem ut, at officiis pariatur repellendus! Quia, ipsam, sequi?</p>
+	<section id="bar"></section>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis hic autem quisquam eveniet illum fugiat soluta consectetur assumenda, quibusdam omnis quam quis reiciendis veritatis obcaecati, voluptatum enim. Nobis, sapiente, tenetur.</p>
+	<section id="about">
+		<div id="profile">
+			<h2 id="sectionTitle1">She is the slayer.</h2>
+			<p id="date1">May 9th, 2014</p>
+		</div>
+		
+		<img id="cat2" src="assets/download.jpeg" alt="cat">
+
+		<div id="content1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae praesentium sequi labore tenetur laudantium modi eligendi cum, error cupiditate illum accusamus voluptatem ut, at officiis pariatur repellendus! Quia, ipsam, sequi?</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis hic autem quisquam eveniet illum fugiat soluta consectetur assumenda, quibusdam omnis quam quis reiciendis veritatis obcaecati, voluptatum enim. Nobis, sapiente, tenetur.</p>
+		</div>
 	</section>
 
-	<section>
-		<h2>Foose Ball Tournament Results</h2>
-		<p>April 20th, 2014</p>
+	<section id="blog">
+		<div id="article1">
+			<h2 id="sectionTitle2">Foose Ball Tournament Results</h2>
+			<p id="date2">April 20th, 2014</p>
+		</div>
 		<p>There is a prison in a more ancient part of the world. A pit where men are thrown to suffer and die. But sometimes a man rises from the darkness. Sometimes, the pit sends something back.</p>
 
 		<table>
@@ -59,9 +70,11 @@
 		</table>
 	</section>
 
-	<section>
-		<h2>To-Do List</h2>
-		<p>February 13th, 2014</p>
+	<section id="blog">
+		<div id="article2">
+			<h2 id="sectionTitle3">To-Do List</h2>
+			<p id="date3">February 13th, 2014</p>
+		</div>
 		<ul>
 			<li>Go to grocery store for:</li>
 				<ol>
@@ -81,8 +94,8 @@
 		</ul>
 	</section>
 
-	<section>
-		<h2>Contact Me</h2>
+	<section id="contact">
+		<h2 class="sectionTitle">Contact Me</h2>
 		<p>Enter your message below. Be sure to fill in your email so that I can respond to you!</p>
 		<p>Your Email: <input></p>
 		<p>Message: <textarea cols="30" rows="10"></textarea></p>

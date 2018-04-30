@@ -1,0 +1,89 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 50px;
+}
+
+#title {
+	font-size: 25px;
+}
+
+#navigation {
+	padding-bottom: 20px;
+}
+
+.guide {
+	display: inline;
+	border-style: solid;
+	border-color: #ccebff; 
+}
+
+a:link, a:visited {
+	background-color: #ccebff;
+	color: #3399ff; /*text*/
+	text-decoration: none;
+}
+
+#bar {
+	border-style: solid;
+	border-color: #3399ff;
+	padding-left: 100px;
+	margin-bottom: 25px;
+}
+
+#about {
+	border-style: solid;
+	border-color: #b3b3b3;
+	text-align: left;
+}
+
+#profile {
+	background-color: #3399ff;
+	padding: 20px;
+}
+
+#sectionTitle1 {
+	color: #ccebff;
+	margin: 0;
+}
+
+#date1 {
+	margin: 0;
+}
+
+img#cat2 {
+	float: right;
+	padding: 30px 20px 20px 20px;
+	height: 75px;
+}
+
+#content1 {
+	padding: 20px;
+	background-color: #ccebff;
+}
+
+#blog, #contact {
+	border-style: solid;
+	border-color: #b3b3b3;
+	text-align: left;
+	margin-top: 30px;
+}
+
+#article1, #article2 {
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#sectionTitle2, #sectionTitle3 {
+	color: #999999;
+	margin: 0;
+}
+
+#date2, #date3 {
+	margin: 0;
+}
+
+table {
+	border-style: solid;
+	border-color: #b3b3b3;
+}
