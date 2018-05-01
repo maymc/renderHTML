@@ -2,6 +2,7 @@ body {
 	text-align: center;
 	margin: 0;
 	padding: 50px;
+	font-family: 'Roboto', sans-serif;
 }
 
 #title {
@@ -24,7 +25,7 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-#bar {
+#headerBar {
 	border-style: solid;
 	border-color: #3399ff;
 	padding-left: 100px;
@@ -69,21 +70,68 @@ img#cat2 {
 	margin-top: 30px;
 }
 
-#article1, #article2 {
+#content2, #content3, #content4 {
+	padding: 20px;
+	line-height: 30px;
+}
+
+.article {
 	background-color: #f2f2f2;
 	padding: 20px;
 }
 
-#sectionTitle2, #sectionTitle3 {
+#sectionTitle2, #sectionTitle3, #sectionTitle4 {
 	color: #999999;
 	margin: 0;
 }
 
-#date2, #date3 {
+#date2, #date, #message {
 	margin: 0;
 }
 
 table {
+	border: 1px solid #b3b3b3;
+	width: 100%;
+	border-collapse: collapse; /*this collapses the border into one so there is no outline around each individual row or cell.*/
+}
+
+th {
+
+	background-color: #f2f2f2;
+	color: #999999;
+}
+
+#fromHawaii {
+	margin: 0;
+}
+
+#emailInput {
+	width: 100%;
+	height: 40px;
+}
+
+#messageInput {
+	width: 100%;
+	height: 100px;
+}
+
+.radioBtns {
+	margin: 0;
+	display: inline;
+	padding-right: 50%;
+}
+
+select {
+	width: 100%;
+}
+
+#footer {
 	border-style: solid;
-	border-color: #b3b3b3;
+	border-color: #3399ff;
+	padding-left: 100px;
+	margin: 25px 0;
+}
+
+#copyright {
+	text-align: center;
 }

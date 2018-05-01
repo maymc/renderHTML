@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<title>Wray Farias - Web Developer</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
 		<li class="guide"><a href="#contact">Contact Me</a></li>
 	</section>
 
-	<section id="bar"></section>
+	<section id="headerBar"></section>
 
 	<section id="about">
 		<div id="profile">
@@ -34,84 +35,101 @@
 	</section>
 
 	<section id="blog">
-		<div id="article1">
+		<div class="article">
 			<h2 id="sectionTitle2">Foose Ball Tournament Results</h2>
 			<p id="date2">April 20th, 2014</p>
 		</div>
-		<p>There is a prison in a more ancient part of the world. A pit where men are thrown to suffer and die. But sometimes a man rises from the darkness. Sometimes, the pit sends something back.</p>
 
-		<table>
-			<tr>
-				<th>Team 1</th>
-				<th>Team 2</th>
-				<th>Winning Team</th>
-				<th>Final Score</th>
-			</tr>
-			<tr>
-				<td>Intergalatic Potato</td>
-				<td>Beastie Poise</td>
-				<td>Intergalactic Potato</td>
-				<td>15 - 9</td>
-			</tr>
+		<div id="content2">
+			<p>There is a prison in a more ancient part of the world. A pit where men are thrown to suffer and die. But sometimes a man rises from the darkness. Sometimes, the pit sends something back.</p>
 
-			<tr>
-				<td>EE DEE M&Ms</td>
-				<td>Slumber Party</td>
-				<td>Slumber Party</td>
-				<td>15 - 11</td>
-			</tr>
+			<table>
+				<tr>
+					<th>Team 1</th>
+					<th>Team 2</th>
+					<th>Winning Team</th>
+					<th>Final Score</th>
+				</tr>
+				<tr>
+					<td>Intergalatic Potato</td>
+					<td>Beastie Poise</td>
+					<td>Intergalactic Potato</td>
+					<td>15 - 9</td>
+				</tr>
 
-			<tr>
-				<td>Time Online Spent Idle</td>
-				<td>Star Fox Travel</td>
-				<td>Star Fox Travel</td>
-				<td>15 - 10</td>
-			</tr>
-		</table>
+				<tr>
+					<td>EE DEE M&Ms</td>
+					<td>Slumber Party</td>
+					<td>Slumber Party</td>
+					<td>15 - 11</td>
+				</tr>
+
+				<tr>
+					<td>Time Online Spent Idle</td>
+					<td>Star Fox Travel</td>
+					<td>Star Fox Travel</td>
+					<td>15 - 10</td>
+				</tr>
+			</table>
+		</div>
 	</section>
 
 	<section id="blog">
-		<div id="article2">
+		<div class="article">
 			<h2 id="sectionTitle3">To-Do List</h2>
 			<p id="date3">February 13th, 2014</p>
 		</div>
-		<ul>
-			<li>Go to grocery store for:</li>
-				<ol>
-					<li>Milk</li>
-					<li>Frozen Pizza</li>
-					<li>Tortilla Chips</li>
-					<li>Yogurt</li>
-				</ol>
-			<li>Bake Butter Mochi</li>
-			<li>Clean Living Room</li>
-			<li>Check if I have enough candles for dinner</li>
-			<li>Do Laundry</li>
-				<ul>
-					<li>Remember to do the whites <u>separate from Colors!</u></li>
-					<li>Air out delicates</li>
-				</ul>
-		</ul>
+
+		<div id="content3">
+			<ul>
+				<li>Go to grocery store for:</li>
+					<ol>
+						<li>Milk</li>
+						<li>Frozen Pizza</li>
+						<li>Tortilla Chips</li>
+						<li>Yogurt</li>
+					</ol>
+				<li>Bake Butter Mochi</li>
+				<li>Clean Living Room</li>
+				<li>Check if I have enough candles for dinner</li>
+				<li>Do Laundry</li>
+					<ul>
+						<li>Remember to do the whites <u>separate from Colors!</u></li>
+						<li>Air out delicates</li>
+					</ul>
+			</ul>
+		</div>
 	</section>
 
 	<section id="contact">
-		<h2 class="sectionTitle">Contact Me</h2>
-		<p>Enter your message below. Be sure to fill in your email so that I can respond to you!</p>
-		<p>Your Email: <input></p>
-		<p>Message: <textarea cols="30" rows="10"></textarea></p>
-		<p>Curious, Are you from Hawaii?</p>
-		<form>
-		<input type="radio"> Yes <br>
-		<input type="radio"> No <br>
-		<input type="checkbox"> First time to my site? <br>
-		<select>
-			<option value="pizza">Pizza</option>
-			<option value="fries">Fries</option>
-		</select><br>
-		<input type="submit" value="Submit">
-		</form>
+		<div class="article">
+			<h2 id="sectionTitle4">Contact Me</h2>
+			<p id="message">Enter your message below. Be sure to fill in your email so that I can respond to you!</p>
+		</div>
+
+		<div id="content4">
+			<p>Your Email: <input id="emailInput"></p>
+			<p>Message: <textarea id="messageInput" cols="30" rows="10"></textarea></p>
+			<p id="fromHawaii">Curious, Are you from Hawaii?</p>
+			<form>
+				<div class="radioBtns"><input type="radio"> Yes </div>
+				<div class="radioBtns"><input type="radio"> No <br></div>
+				<input type="checkbox"> First time to my site? <br>
+				
+				<select>
+					<option value="pizza">Pizza</option>
+					<option value="fries">Fries</option>
+				</select><br>
+				
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		
 		<br>
-		<p>wray farias 2014</p>
+
 	</section>
+
+	<section id="footer"></section>
+	<p id="copyright">wray farias 2014</p>
 </body>
 </html>
